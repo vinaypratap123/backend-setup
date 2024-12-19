@@ -1,0 +1,36 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore build outputs
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment variable files
+.env
+.env.*
+
+# Coverage reports
+coverage/
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore generated files
+*.min.js
+*.min.css
+*.d.ts
+
+# Ignore public files (if applicable)
+public/
+
+# Ignore specific config or JSON files
+tsconfig.json
+.eslintcache
+
+# Ignore version control directories
+.git
