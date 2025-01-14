@@ -2,6 +2,7 @@
   "name": "chai_aur_backend",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
@@ -17,6 +18,7 @@
     "nodemon": "^3.1.9"
   },
   "devDependencies": {
+    "@types/node": "^22.10.5",
     "prettier": "^3.4.2"
   }
 }
